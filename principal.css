@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
+* {
+  font-family: "Overpass", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background-color: black;
+}
+.main {
+  width: 380px;
+  height: 380px;
+  border-radius: 30px;
+  padding: 20px;
+  background-color: hsl(216, 12%, 15%);
+}
+.title {
+  color: white;
+  font-size: 1.6rem;
+  margin: 20px 0 10px 0;
+}
+.text {
+  color: hsl(217, 12%, 63%);
+}
+.image .star {
+  width: 20px;
+  height: 20px;
+}
+.image {
+  margin-top: 20px;
+  background-color: hsl(213, 19%, 18%);
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.balls {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  background-color: hsl(216, 12%, 54%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 13px;
+  border: none;
+}
+
+.div-balls {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+
+#submit, #submitAgain {
+  width: 350px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+#submit:hover, #submitAgain:hover {
+  cursor: pointer;
+
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+.button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.balls:hover {
+  background-color:hsl(25, 97%, 53%);
+  cursor: pointer;
+  color: white;
+}
+
+.balls:focus{
+  background-color: aliceblue;
+}
+
+
+.thanks {
+  display: flex;
+  flex-direction: column;
+}
+
+.thanks .imagem {
+  margin: 20px;
+  text-align: center;
+  }
+.thanks .div-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thanks .div-texts .result{
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  padding: 7px 12px;
+  border-radius: 20px;
+}
+
+.thanks .div-texts .text{ 
+  text-align: center;
+  margin: 5px;
+
+}
+.hidden {
+  display: none;
+}
